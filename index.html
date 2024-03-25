@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="shortcut icon" href="img/anime-logo.png" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/bdc10101bb.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>   
+</head>
+
+<body>
+    <header>
+        <div class="nav-wrap">
+            <div class="grid wide">
+                <div class="nav">
+                    <a href="index.html" class="logo">
+                        <img src="img/anime-logo.png" alt="">
+                    </a>
+                    <div class="nav__list">
+                        <a href="index.html">Trang chủ</a>
+                        <a href="product.html">Sản phẩm</a>
+                        <a href="login.html">Đăng nhập</a>
+                        <a href="reg.html">Đăng ký</a>
+                        <a href="contact.html">Liên hệ</a>
+                        <div class="search-container">
+                            <form name="frm-search" method="get" action="search.html">
+                                <div class="search">					
+                                    <input type="text" placeholder="Nhập nội dung cần tìm..." name="words" onkeypress="checkKeySearch(e)">
+                                    <i class="fa fa-search icon-search" onclick="doSearch()" ></i>
+                                    <i onclick="openCart()" class="fa fa-shopping-cart icon-cart"></i>
+                                </div>
+                            </form>								
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="img">
+        <img  class="img" src="img/anime-spy-x-family-1-1024x576.jpg">
+        <h1><strong class="name-style">KANSHA</strong> - TRUYỆN TRANH HÀNG ĐẦU VIỆT NAM</h1>
+    </div>
+    <main>
+        <div class="grid wide">
+            <section>
+                <div class="featured__product text-center">
+                    <h1>TOP MANGA HOT</h1>
+                    <div>
+                        <div class="row">
+                            <div class="col l-4">
+                                <a href="detail.html" class="featured__product-item">
+                                    <img src="img/truyện 1.jpg" alt="">
+                                    <h4>Tokyo Revengers</h4>
+                                </a>
+                            </div>
+
+                            <div class="col l-4">
+                                <a href="#" class="featured__product-item">
+                                    <img src="img/truyện 2.jpg" alt="">
+                                    <h4>Jujutsu Kaisen</h4>
+                                </a>
+                            </div>
+
+                            <div class="col l-4">
+                                <a href="#" class="featured__product-item">
+                                    <img src="img/truyện 3.jpg" alt="">
+                                    <h4>Kimetsu Yaiba</h4>
+                                </a>
+                            </div>
+
+                            <div class="col l-4">
+                                <a href="#" class="featured__product-item">
+                                    <img src="img/truyện 4.jpg" alt="">
+                                    <h4>Attack On Titan</h4>
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="product.html" class="featured__product-btn btn ">Xem thêm</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="discount">
+                <div class="discount">
+                    <h1 class="text-center">KHUYẾN MÃI</h1>
+                    <div class="discount__body">
+                        <div class="row">
+                            <div class="col l-2">
+                                <div class="discount__item-wrap">
+                                    <div class="discount__item">
+                                        <div class="discount__item-img">
+                                            <img src="img/sale 1.jpg" alt="">
+                                        </div>
+
+                                        <div class="discount__item-body">
+                                            <h3>Death note manga giảm 50% cho khác hàng đã đăng ký thành viên</h3>
+                                                <p>Các bạn hãy nhanh chóng đăng ký thành viên để nhận được nhiều ưu đãi.
+                                                    để biết thêm chi tiết chương trình và có cơ hội nhận những phần quà hấp dẫn!
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2">
+                                <div class="discount__item-wrap">
+                                    <div class="discount__item">
+                                        <div class="discount__item-img">
+                                            <img src="img/sale 3.jpg" alt="">
+                                        </div>
+
+                                        <div class="discount__item-body">
+                                            <h3>Nhân diệp halloween </h3>
+                                                <p>shop tri ân khách hàng với bộ manga siêu hot 
+                                                    chainsaw man được giảm giá 15% cho mọi hóa đơn, sự kiện chỉ kéo dài 2 tuần
+                                                    từ 24/10/2022 cho đến 6/11/2022.
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2">
+                                <div class="discount__item-wrap">
+                                    <div class="discount__item">
+                                        <div class="discount__item-img">
+                                            <img src="img/sale 2.jfif" alt="">
+                                        </div>
+
+                                        <div class="discount__item-body">
+                                            <h3>Bốc thăm trúng thưởng one piece manga mới nhất </h3>
+                                                <p> khách Mua hàng sẽ được tham gia bốc thăm
+                                                    trúng thưởng bộ one piece mới nhất.
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2">
+                                <div class="discount__item-wrap">
+                                    <div class="discount__item">
+                                        <div class="discount__item-img">
+                                            <img src="img/sale 4.jfif" alt="">
+                                        </div>
+
+                                        <div class="discount__item-body">
+                                            <h3>Tặng phiếu mua hàng, phiếu giảm giá</h3>
+                                                <p>Áp dụng trên bộ BOKU NO HERO ACADEMIA khi khách hàng mua hóa đơn trên 100k.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <div class="grid wide">
+                <div class="footer__body">
+                    <h2>KANSHA THANKS YOU VERY MUCH</h2>
+                    <p>
+                        <b>Hotline:</b> 0999 999 999
+                    </p>
+                    <p>
+                        <b>Address:</b> Toà nhà ABC, đường 30/4, phường Xuân Khánh, quận Ninh Kiều, TP Cần Thơ.
+                    </p>
+                    <p>
+                        <b>Email:</b> kensha@gmail.com
+                    </p>
+            </div> 
+            <div class="order__title">Bạn cũng có thể đặt hàng tại:</div>
+            <div class="order">
+                <a href="https://shopee.vn/" target="_blank">
+                    <img src="img/shopee.png" class="order-now">
+                </a>
+                <a href="https://tiki.vn/" target="_blank">
+                    <img src="img/tiki.png" class="order-now">
+                </a>
+                <a href="https://www.lazada.vn/" target="_blank">
+                    <img src="img/lazada.png" class="order-now">
+                </a>
+            </div>
+        </section>
+        <section class="footer-copyright">
+            © Copyright 2021 <strong class="page-footer">Bản quyền thuộc về KANSHA.</strong>All rights reserved
+        </section>  
+    </footer>
+
+    <div class="icon_wrap">
+        <a href="#" class="top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <a href="#" target="_blank" class="fb">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="tel:0999999999" class="phone">
+            <i class="fas fa-fw fa-phone"></i>
+        </a>
+    </div>
+</body>
+
+</html>
